@@ -17,11 +17,36 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('/images/back.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  direction: rtl;
+  font-family:yekan!important ;
+}
+.highcharts-credits{
+  display: none!important ;
+}
+.highcharts-title{
+  font-family:yekan!important ;
+}
+@font-face {
+  font-family: ziba;
+  src: url('/fonts/BZiba.ttf');
+  
+}
+@font-face {
+  font-family: yekan;
+  src: url('/fonts/BYekan.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: mehr;
+  src: url('/fonts/BMehrBold.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family:nazanin ;
+  src: url('/fonts/BNazanin.ttf');
+  font-display: block;
 }
